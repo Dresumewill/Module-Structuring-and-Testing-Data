@@ -42,4 +42,10 @@ line 7: "const priceDifference"
 line 8: "const percentageChange" */
 
 // e) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
- 
+/* This expression Number(carPrice.replaceAll(",", "")) is performing data cleaning and type conversion. 
+carPrice.replaceAll(",", ""): this is the string method, that searches the string stored in carPrice(10,000) for all the occurrences of the comma character (,)
+and then replace it with an empty string ("").
+The second part is a builth-in function Number(...), that attempt to convert the resulting clean string ("10000") into numeric data type.
+*/
+
+/* The main purpose is to take a price string formatted for human reading and then convert it into valid number type (10000) so that mathematical calculation can be performed correctly.*/
