@@ -10,3 +10,5 @@ const last4Digits = cardNumber.slice(-4);
 
 // JavaScript treats the cardNumber variable as a number primitive. The .slice() method, which is used to extract a section of a sequence, is exclusively available on string and array objects.
 // The console output here´s TypeError: cardNumber.slice is not a function
+// Yes, the prediction was essentially correct. The core problem is that .slice(). 
+// The Number object does not have a method named slice. JavaScript reserves this method for sequences like strings and arrays.
