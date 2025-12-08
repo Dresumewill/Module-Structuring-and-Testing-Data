@@ -12,4 +12,6 @@ const time12Hour = "08:53";
 const thisIs24HourTime = "20:53";
 
 // To convert 20:53 (8:53 PM), you'd need logic:
-const thisIs12HourTime = "08:53 PM"; 
+const thisIs12HourTime = "08:53 PM";
+
+console.log(`24-Hour Time: ${thisIs24HourTime}`);
