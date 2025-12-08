@@ -8,6 +8,10 @@ const priceDifference = carPrice - priceAfterOneYear;
 const percentageChange = (priceDifference / carPrice) * 100;
 
 console.log(`The percentage change is ${percentageChange}`);
+console.log(carPrice)
+console.log(priceAfterOneYear)
+console.log(priceDifference)
+console.log(percentageChange)
 
 // Read the code and then answer the questions below
 
