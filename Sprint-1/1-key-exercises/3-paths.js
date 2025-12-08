@@ -25,4 +25,11 @@ console.log(ext);
 console.log("-----------------------------------------------------------")
 
 // Create a variable to store the dir part of the filePath variable
+console.log(filePath)
+console.log(lastSlashIndex)
+
+let pathToDir = filePath.slice(0, lastSlashIndex)
+console.log(pathToDir)
+
+
 
