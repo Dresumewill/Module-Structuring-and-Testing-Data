@@ -3,3 +3,9 @@
 
 console.log(`I was born in ${cityOfBirth}`);
 const cityOfBirth = "Bolton";
+
+// The error here is referenceError
+// To fix this, the declaration will have to move to the top
+
+// const cityOfBirth = "Bolton";
+// console.log(`I was born in ${cityOfBirth}`)
