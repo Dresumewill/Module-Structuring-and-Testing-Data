@@ -34,5 +34,12 @@ line 4: carPrice = Number(carPrice.replaceAll(",", ""));
 line 5: priceAfterOneYear = Number(priceAfterOneYear.replaceAll(",", "")); */
 
 // d) Identify all the lines that are variable declarations
+/* This is were new variables are introduce into the scope using "let" or "const".
+the following lines are stated to be variable declared;
+line 1: "let carPrice"
+line 2: "let priceAfterOneYear"
+line 7: "const priceDifference"
+line 8: "const percentageChange" */
 
 // e) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
+ 
