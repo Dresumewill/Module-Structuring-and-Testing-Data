@@ -15,3 +15,4 @@ const thisIs24HourTime = "20:53";
 const thisIs12HourTime = "08:53 PM";
 
 console.log(`24-Hour Time: ${thisIs24HourTime}`);
+console.log(`12-Hour Time: ${thisIs12HourTime}`);
