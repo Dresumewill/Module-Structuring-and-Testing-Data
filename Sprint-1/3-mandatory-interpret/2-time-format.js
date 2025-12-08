@@ -12,6 +12,14 @@ console.log(result);
 // For the piece of code above, read the code and then answer the following questions
 
 // a) How many variable declarations are there in this program?
+/* In this program, there are six variable declaration, 
+the list is as follows: 
+i.  const movieLength, 
+ii. const remainingSeconds
+iii. const totalMinutes
+iv.  const remainingMinutes
+v.  const totalHours
+vi. const result */
 
 // b) How many function calls are there?
 
