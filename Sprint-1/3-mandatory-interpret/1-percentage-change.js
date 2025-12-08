@@ -28,6 +28,7 @@ The error is a SyntaxError because the arguments for the replaceAll() method are
 
 // c) Identify all the lines that are variable reassignment statements
 /* Variable reassignment statements change the value of an already declared variable.
+This is possible because both variables were declared "let"
 The lines that are variable reassignment statement are; 
 line 4: carPrice = Number(carPrice.replaceAll(",", "")); 
 line 5: priceAfterOneYear = Number(priceAfterOneYear.replaceAll(",", "")); */
