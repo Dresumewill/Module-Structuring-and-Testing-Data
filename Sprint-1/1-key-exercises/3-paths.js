@@ -31,5 +31,9 @@ console.log(lastSlashIndex)
 let pathToDir = filePath.slice(0, lastSlashIndex)
 console.log(pathToDir)
 
+let indexOfDir = pathToDir.lastIndexOf("/")
+console.log(indexOfDir)
 
+let dir = pathToDir.slice(indexOfDir + 1)
+console.log(dir)
 
