@@ -47,3 +47,8 @@ i.e movieLength - remainingSeconds which subtraction removes the partial seconds
 A better descriptive name for this variable for me would be "timeString". */
 
 // f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
+/* No, this code will not work well for all values of movieLength, specifically for displaying the time correctly.
+If any component (totalHours, remainingMinutes, or remainingSeconds) is less than 10, the output will look unusual.
+The conversion logic is mathematically sound, but the final output format is unreliable because it does not include padding (leading zeros). 
+For short movie; If movieLength = 65 seconds, the result is "0:1:5" (0 hours, 1 minute, 5 seconds). This is usually expected to be displayed as "00:01:05".
+The expression const result = \${totalHours}:${remainingMinutes}:${remainingSeconds}`;uses simple string interpolation.*/
