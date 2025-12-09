@@ -41,6 +41,9 @@ The expression calculates the total number of whole minutes contained in the (mo
 i.e movieLength - remainingSeconds which subtraction removes the partial seconds, then leaving a value that is divisible perfectly by 60. 
 
 (...) / 60; This division converts the total seconds into total minutes. */ 
+
 // e) What do you think the variable result represents? Can you think of a better name for this variable?
+/* The variable result represent the movie duration formatted as a time string in the structure Hours:Minutes:Seconds ("2:26:24").
+A better descriptive name for this variable for me would be "timeString". */
 
 // f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
