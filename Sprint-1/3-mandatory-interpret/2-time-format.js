@@ -27,7 +27,7 @@ v.  const totalHours
 vi. const result */
 
 // b) How many function calls are there?
-/* There is only 1 function call in the program and the call is console.log(result)*/
+/* There is only 6 function call in the program and the call is console.log(result)*/
 
 // c) Using documentation, explain what the expression movieLength % 60 represents
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
