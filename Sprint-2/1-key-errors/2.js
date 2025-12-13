@@ -12,7 +12,8 @@ function square(3) {
 
 // =============> The error message is SyntaxError: Unexpected number
 
-// =============> explain this error message here
+// =============> The error occurs because the parameter list within a function definition (function square(..)) 
+// should contain a valid identifiers (i.e variable names) and not a literal value like numbers, strings, or booleans.
 
 // Finally, correct the code to fix the problem
 
