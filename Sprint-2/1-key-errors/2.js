@@ -4,7 +4,8 @@
 // this function should square any number but instead we're going to get an error
 
 // =============> write your prediction of the error here
-
+// I predict the code will result in a SyntaxError when the Javascript engine attepts to parse the function definition. 
+// Because the error is cause by placing a numeric literal (3) in the parameter list instead of a valid parameter name (an identifier).
 function square(3) {
     return num * num;
 }
