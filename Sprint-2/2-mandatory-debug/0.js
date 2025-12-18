@@ -4,11 +4,11 @@
 // 1. 320, 2. The result of multiplying 10 and 32 is undefined.
 
 
-function multiply(a, b) {
-  console.log(a * b);
-}
+//function multiply(a, b) {
+//  console.log(a * b);
+//}
 
-console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
+//console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
 
 // =============> The error logic occur because of the multiply function logs, the result to the console does not return it to the code that called it. 
 // 1. The Side Effect - multiply(10, 32) is called inside the template literal, the first thing it does is execute console.log(a * b), which print 320. 
@@ -17,3 +17,9 @@ console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
 
 // Finally, correct the code to fix the problem
 //  =============> write your new code here
+function multiply(a, b) {
+  return a * b; // The return was used instead of console.log so that the result can be use elsewhere.
+}
+
+// Now the function returns 320, which is correctly inserted into the string
+console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
