@@ -1,6 +1,8 @@
 // Predict and explain first...
 
-// =============> write your prediction here
+// =============> I predicted that the output will be two lines; 
+// 1. 320, 2. The result of multiplying 10 and 32 is undefined.
+
 
 function multiply(a, b) {
   console.log(a * b);
