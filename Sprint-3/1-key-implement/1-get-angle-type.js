@@ -62,3 +62,5 @@ assertEquals(Straight, "Straight angle");
 // ====> write your test here, and then add a line to pass the test in the function above
 const Reflex = getAngleType(300);
 assertEquals(Reflex, "Reflex angle");
+
+console.log("All test passed successfully!")
