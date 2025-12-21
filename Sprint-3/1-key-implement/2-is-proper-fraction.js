@@ -12,6 +12,9 @@ function isProperFraction(numerator, denominator) {
     if (numerator > denominator) return false;
     if (numerator < denominator) return true;
     if (numerator === denominator) return false;
+    if (numerator < denominator) return true;
+    if (numerator = denominator) return true;
+
 
 }
 
@@ -57,3 +60,8 @@ assertEquals(equalFraction, false)
 
 // Stretch:
 // What other scenarios could you test for?
+// Zero Numerator check
+// target output: true
+// Explanation: The fraction 0/5 is technically a proper fraction (0 < 5).
+const zeroNumerator = isProperFraction(0, 5);
+assertEquals(zeroNumerator, true);
