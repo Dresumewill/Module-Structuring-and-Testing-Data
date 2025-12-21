@@ -66,7 +66,7 @@ assertEquals(aceOfHearts, 11);
 // When the function is called with such a card,
 // Then it should throw an error indicating "Invalid card rank."
 try {
-    getCardValue("Z♠");
+    getCardValue("W♠");
 } catch (e) {
     assertEquals(e.message, "Invalid card rank.");
 }
