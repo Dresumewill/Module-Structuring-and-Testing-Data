@@ -1,6 +1,5 @@
-function passwordValidator(password, previousPasswords = []) {
-    if (password.lenght < 5) return false;
-    if (previousPasswords.includes(password)) return false;
+function passwordValidator(password) {
+    if (password.length < 5) return false;
 
     let hasUpper = false;
     let hasLower = false;
