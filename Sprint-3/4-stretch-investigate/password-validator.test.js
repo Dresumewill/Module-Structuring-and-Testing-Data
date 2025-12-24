@@ -20,6 +20,7 @@ test("password has at least 5 characters", () => {
     const password = "12345";
     // Act
     const result = isValidPassword(password);
+    
     // Assert
     expect(result).toEqual(false);
 }
