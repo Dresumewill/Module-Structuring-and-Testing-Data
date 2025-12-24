@@ -13,6 +13,7 @@
 // The let keyword prevents redeclaration in the same scope, leading to a SyntaxError.
 // =============> write your new code here
 function capitalise(str) {
+  
   // Remove ¨let¨ keyword to reassign the existing ¨str¨
   str = `${str[0].toUpperCase()}${str.slice(1)}`;
   return str; 
