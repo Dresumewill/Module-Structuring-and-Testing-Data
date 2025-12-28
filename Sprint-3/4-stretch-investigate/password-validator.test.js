@@ -28,3 +28,7 @@ test("password has at least 5 characters", () => {
 test("should return false if missing an uppercase letter", () => {
     expect(isValidPassword("abc1!")).toBe(false);
 });
+
+test("should return false if missing a symbol", () => {
+    expect(isValidPassword("Abcd1")).toBe(false);
+});
