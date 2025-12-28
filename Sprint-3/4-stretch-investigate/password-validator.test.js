@@ -32,3 +32,9 @@ test("should return false if missing an uppercase letter", () => {
 test("should return false if missing a symbol", () => {
     expect(isValidPassword("Abcd1")).toBe(false);
 });
+
+test("should return false if password was previously used", () => {
+    const history = ["Secret1", "Oldpass2*"];
+    expect(isValidPassword("Secret1!", history)).toBe(true);
+});
+
