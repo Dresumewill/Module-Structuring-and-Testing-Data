@@ -15,8 +15,17 @@ function validateCreditCard(cardNumber) {
         if (currentDigit < `0` || currentDigit > `9`) {
             return false;
         }
-    }
 
     // Accumulate the sum
     sum += Number(currentDigit);
+
+    if (currentDigit !== cardNumber[0]) {
+        allDigitsAreSame = false;
+    }
+  }
+
+  // Check if the loop finished and allDigitalAreSame is still true
+  if (allDigitsAreSame) {
+    return false;
+  }
 }
