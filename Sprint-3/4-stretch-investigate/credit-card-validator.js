@@ -28,4 +28,10 @@ function validateCreditCard(cardNumber) {
   if (allDigitsAreSame) {
     return false;
   }
+
+  // When the final digit must be even
+  const lastDigit = Number(cardNumber[cardNumber.length - 1]);
+  if (lastDigit % 2 !== 0) {
+    return false;
+  }
 }
