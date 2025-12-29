@@ -16,4 +16,7 @@ function validateCreditCard(cardNumber) {
             return false;
         }
     }
+
+    // Accumulate the sum
+    sum += Number(currentDigit);
 }
