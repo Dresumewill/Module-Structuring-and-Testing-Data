@@ -14,3 +14,4 @@ console.assert(validateCreditCard("1111111111111110") === false, "Test 5 Failed"
 // Odd number final
 console.assert(validateCreditCard("6666666666666661") === false, "Test 6 failed");
 
+console.log("All tests completed!");
