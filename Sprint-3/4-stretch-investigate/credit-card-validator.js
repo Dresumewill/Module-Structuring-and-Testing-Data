@@ -34,4 +34,10 @@ function validateCreditCard(cardNumber) {
   if (lastDigit % 2 !== 0) {
     return false;
   }
+
+  // This is where the sum of all digits must be greater than 16
+  if (sum <= 16) {
+    return false;
+  }
+  
 }
