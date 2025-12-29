@@ -39,5 +39,8 @@ function validateCreditCard(cardNumber) {
   if (sum <= 16) {
     return false;
   }
-  
+  // if the card is valid
+  return true;
 }
+
+module.exports = validateCreditCard;
