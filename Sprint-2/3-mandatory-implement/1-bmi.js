@@ -14,6 +14,20 @@
 // Then when we call this function with the weight and height
 // It should return their Body Mass Index to 1 decimal place
 
+// To solve this , i have to translate the formula into javascript code: 
+// 1. Square the height (height x height). 
+// 2. Divide the weight by square height. 
+// 3. Round the result to exactly 1 decimal place
+
 function calculateBMI(weight, height) {
     // return the BMI of someone based off their weight and height
+    const bmi = weight / (height * height);
+
+    // Format the result to 1 decimal place
+    return Number(bmi.toFixed(1));
 }
+
+// The case from the prompt; 70kg, 1.73m
+const myBMI = calculateBMI(70, 1.73);
+
+console.log(`The BMI is: ${myBMI}`)
